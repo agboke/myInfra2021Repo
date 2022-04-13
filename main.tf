@@ -39,8 +39,8 @@ resource "aws_instance" "myFirstInstance" {
   ami           = "ami-0e472ba40eb589f49"
   key_name = "main-key"
   instance_type = "t2.micro"
-  security_groups= "my_security_group"
-  tags= {
+  security_groups = "my_security_group"
+  tags = {
     Name = var.tag_name
   }
 }
