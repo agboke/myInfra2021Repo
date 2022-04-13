@@ -31,7 +31,7 @@ resource "aws_security_group" "my_security_group" {
   }
 
   tags= {
-    Name = var.security_group
+    Name = my_security_group
   }
 }
 
@@ -41,7 +41,7 @@ resource "aws_instance" "myFirstInstance" {
   instance_type = "t2.micro"
   security_groups = "my_security_group"
   tags = {
-    Name = var.tag_name
+    Name = "myFirstInstanc"
   }
 }
 
