@@ -1,5 +1,6 @@
 provider "aws" {
   region = var.aws_region
+  profile   = "terra-demo"
 }
 
 #Create security group with firewall rules
