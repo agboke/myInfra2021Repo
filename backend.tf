@@ -3,6 +3,7 @@ terraform {
     bucket = "dev-tf-state-file"
     key = "s3://dev-tf-state-file/sample/"
     region = "us-east-1"
+    profile = "terra-demo"
     dynamodb_table = "my-dynamodb-table"
   }
 }
