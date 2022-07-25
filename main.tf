@@ -1,6 +1,6 @@
 provider "aws" {
   region                      = "us-east-1"
-  profile                     = "MyAWS"  
+  profile                     = "myaws"  
 }
 # 1. Creat vpc 
 resource "aws_vpc" "qa-vpc" {
