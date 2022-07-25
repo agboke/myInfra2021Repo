@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  profile   = "terra-demo"
+  profile   = "MyAWS"
 }
 
 # 1. Creat vpc 
