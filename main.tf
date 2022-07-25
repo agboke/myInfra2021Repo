@@ -1,6 +1,7 @@
-privider "aws" {
-  region    = "us-east-1"
-  profile   = "MyAWS"
+provider "aws" {
+  region                    = "us-east-1"
+  shared_credentials_file   = "/home/ec2-user/.aws/credentials"
+  profile                   = "MyAWS"
 }
 
 # 1. Creat vpc 
